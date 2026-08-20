@@ -1,0 +1,10 @@
+<%- include('partials/header') %>
+<div class="card">
+  <h1><%= post.title %></h1>
+  <p style="color: #64748b;">By <%= post.author %> on <%= post.date %></p>
+  <hr style="border: 0; border-top: 1px solid var(--border); margin: 1.5rem 0;">
+  <div style="white-space: pre-wrap;"><%= post.content %></div>
+  <br>
+  <a href="/" class="btn btn-secondary">← Back to Posts</a>
+</div>
+<%- include('partials/footer') %>
