@@ -1,0 +1,13 @@
+{
+  "name": "blog-cms",
+  "version": "1.0.0",
+  "description": "A lightweight Node.js & Express Content Management System for blogs.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ejs": "^3.1.10"
+  }
+}
